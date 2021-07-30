@@ -51,7 +51,6 @@ function ProfileCard({
           setIsLoading={setIsLoading}
           setEditMode={setEditMode}
           data={data}
-          setIsLoading={setIsLoading}
         />
       ) : (
         <>
