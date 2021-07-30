@@ -1,0 +1,18 @@
+.AddUserFormContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AddUserForm {
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin: 10px;
+}

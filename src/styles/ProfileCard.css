@@ -1,0 +1,86 @@
+.ProfileCard {
+  width: 80vw;
+  margin: 20px;
+  display: flex;
+}
+.ProfileCard__imageContainer {
+  width: 50%;
+  background-color: #fce043;
+  background-image: linear-gradient(315deg, #fff56f 0%, #ff9ebb 74%);
+  border-radius: 14px 0px 0px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProfileCard__infoContainer {
+  width: 50%;
+  background-color: white;
+  border-radius: 0px 14px 14px 0px;
+  padding: 20px;
+}
+.ProfileCard__imageContainer > img {
+  width: 180px;
+  height: 180px;
+  margin: 40px;
+  border-radius: 50%;
+}
+.ProfileCard__infoElement {
+  display: flex;
+  align-items: center;
+}
+.ProfileCard__infoElement > p {
+  margin: 10px;
+}
+.ProfileCard__companyContainer {
+  display: flex;
+  align-items: center;
+}
+.ProfileCard__companyInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.ProfileCard__companyInfo > p {
+  margin: 3px;
+}
+.ProfileCard__editButton {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 700px) {
+  .ProfileCard {
+    flex-direction: column;
+    width: 90vw;
+  }
+  .ProfileCard__imageContainer {
+    width: 90vw;
+    background-color: #fce043;
+    background-image: linear-gradient(315deg, #fff56f 0%, #ff9ebb 74%);
+    border-radius: 14px 14px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ProfileCard__infoContainer {
+    width: 90vw;
+    background-color: white;
+    border-radius: 0px 0px 14px 14px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ProfileCard__infoContainer > div {
+    width: 85vw;
+  }
+  .ProfileCard__infoContainer > h1 {
+    text-align: left;
+    width: 85vw;
+  }
+  .ProfileCard__editButton {
+    padding: 5px;
+  }
+}

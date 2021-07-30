@@ -1,0 +1,17 @@
+.FormInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+.FormInput > h4 {
+  width: 50vw;
+  text-align: left;
+  margin: 0px;
+  color: black;
+}
+.FormInput > input {
+  width: 50vw;
+  margin: 5px;
+}

@@ -1,0 +1,15 @@
+.EditProfileCard {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+}
+.EditProfileCard > button {
+  margin: 5px;
+  width: 70%;
+}
+.EditProfileCard > h1 {
+  margin: 10px;
+}
